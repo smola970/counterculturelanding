@@ -9,12 +9,12 @@
 <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center paddingTop-20 hidden-xs relative">
   <%= image_tag("ipad.png") %>
   <div class="video-container">
-    <video width="512" height="384" controls autoplay><source src="assets/videosample.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+    <%= video_tag("videosample.mp4", controls: true, autobuffer: true, autoplay: true, height: 384, width: 512) %>
   </div>
 </div>
 
 <div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center paddingTop-10 paddingBottom-10 visible-xs not-ipad">
-  <video width="320" height="240" controls autoplay><source src="assets/videosample.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+  <%= video_tag("videosample.mp4", controls: true, autobuffer: true, autoplay: true, height: 240, width: 320) %>
 </div>
 <div class="col-xs-12 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center static-form">
   <p class="col-xs-12">So what are your thoughts so far?</p>

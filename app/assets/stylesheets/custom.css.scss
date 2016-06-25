@@ -1,0 +1,221 @@
+.pink-bg {
+  background-color: #f6d3c1;
+}
+
+#sienna-convo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  color: #4a4a4a;
+  padding-top: 50px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.name {
+  margin-top: 18px;
+}
+
+input[type=text] {
+  border: dotted 2px #ffffff;
+  width: 100%;
+  background: transparent;
+  height: 3em;
+  outline: none;
+  padding: 1em 0.5em;
+  margin-bottom: 30px;
+
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+// ::-webkit-input-placeholder {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-size: 14px;
+//   color: white;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1em;
+//   padding-top: 0.6em;
+//   padding-left: 2em;
+
+// }
+
+// :-moz-placeholder { /* Firefox 18- */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-size: 14px;
+//   color: white;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1em;
+//   padding-top: 0.6em;
+//   padding-left: 2em;
+// }
+
+// ::-moz-placeholder {  /* Firefox 19+ */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-size: 14px;
+//   color: white;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1em;
+//   padding-top: 0.6em;
+//   padding-left: 2em;
+// }
+
+// :-ms-input-placeholder {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-size: 14px;
+//   color: white;
+//   font-weight: 600;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1em;
+//   padding-top: 0.6em;
+//   padding-left: 2em;
+// }
+
+textarea {
+  border: dotted 2px #ffffff;
+  width: 100%;
+  background: transparent;
+  height: 5.5em;
+  outline: none;
+  padding: 1em 0.5em;
+  margin-bottom: 30px;
+  font-size: 20px;
+
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+
+.black-button {
+  // width: 146px;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 50px;
+  background-color: #f6d3c1;
+  border: solid 2px #4a4a4a;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  outline: none;
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+
+
+// Static Landing Page
+
+#logo-container {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+}
+
+.coming-soon {
+  width: 200px;
+  height: 24px;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  // font-family: Freeland;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+  position: absolute;
+  right: -3em;
+  top: 2.5em;
+}
+
+.static-form {
+  position: relative;
+  padding-bottom: 1em;
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #4a4a4a;
+    padding-bottom: 15px;
+  }
+
+  div {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  input {
+    border: solid #979797 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    letter-spacing: 0.05em;
+    height: 42px;
+    margin-bottom: 14px;
+  }
+
+  textarea {
+    border: solid #979797 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+    letter-spacing: 0.05em;
+    height: 8em;
+    margin-bottom: 14px;
+    padding-bottom:2em;
+  }
+
+  .button {
+    height: 42px;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+  }
+}
+
+.not-ipad {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+#feedback-field-button {
+  position: absolute;
+  bottom: 5px;
+  right: 3px;
+}
+
+#thankyou {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a4a4a;
+  padding-bottom: 15px;
+}
+
+.video-container {
+  position: absolute;
+  left: 50%;
+  top: 37px;
+  video {
+    position: relative;
+    left: -50%;
+  }
+}
+

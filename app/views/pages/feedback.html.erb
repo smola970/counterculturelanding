@@ -1,0 +1,32 @@
+<div class="spacer paddingTop-100 visible-sm"></div>
+<div class="col-xs-12 text-center paddingTop-20">
+  <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2" id="logo-container">
+    <%= image_tag("logo.png") %>
+    <h2 class="coming-soon hidden-xs">Coming &nbsp;Soon</h2>
+  </div>
+</div>
+
+<div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center paddingTop-20 hidden-xs relative">
+  <%= image_tag("ipad.png") %>
+  <div class="video-container">
+    <video width="512" height="384" controls autoplay><source src="assets/videosample.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+  </div>
+</div>
+
+<div class="col-xs-12 col-lg-8 col-lg-offset-2 text-center paddingTop-10 paddingBottom-10 visible-xs not-ipad">
+  <video width="320" height="240" controls autoplay><source src="assets/videosample.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+</div>
+<div class="col-xs-12 col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center static-form">
+  <p class="col-xs-12">So what are your thoughts so far?</p>
+
+  <div class="col-sm-12"><textarea name="feedback" id="feedback-field" cols="30" rows="10"></textarea></div>
+  <div class="col-sm-2 col-sm-offset-10 col-xs-4 col-xs-offset-8"><input class="button" name="commit" type="submit" value="SUBMIT" id="feedback-field-button"></div>
+</div>
+<div class="col-xs-12" id="thankyou" style="display:none;">
+  <p class="col-xs-12">&nbsp;</p>
+  <p class="col-xs-12">&nbsp;</p>
+  <p class="col-xs-12 text-center">Thanks for your feedback!</p>
+  <p class="col-xs-12">&nbsp;</p>
+  <p class="col-xs-12">&nbsp;</p>
+  <p class="col-xs-12">&nbsp;</p>
+</div>
